@@ -25,7 +25,8 @@ Summary(zh_CN):	%{pdir}::%{pnam} Perl Ä£¿é
 Name:		perl-%{pdir}-%{pnam}
 Version:	1.12
 Release:	2
-License:	GPL/Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	01d42c11f3c4372088597f9c5c3d6af7
