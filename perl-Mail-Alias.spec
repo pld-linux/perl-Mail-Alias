@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Mail
-%define	pnam	Alias
+%define		pdir	Mail
+%define		pnam	Alias
 Summary:	Mail::Alias - manipulates mail alias files of various formats
 Summary(pl):	Mail::Alias - manipulacja plikami z aliasami pocztowymi w ró¿nych formatach
 Name:		perl-Mail-Alias
