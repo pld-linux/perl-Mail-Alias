@@ -1,3 +1,7 @@
+#
+# Conditional build:
+%bcond_without	tests	# do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Mail
 %define	pnam	Alias
@@ -32,7 +36,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This module allows direct manipulation of various types of E-Mail Alias
-files.   The primary use of Mail::Alias is for manipulating alias files
+files.  The primary use of Mail::Alias is for manipulating alias files
 in the SENDMAIL alias file format.  Additionally, it's possible to read
 some other formats and to convert between various alias file formats.
 
@@ -49,7 +53,8 @@ tak¿e korzystanie z kilku innych formatów oraz konwertowanie.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make}
-#%%{__make} test
+
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
