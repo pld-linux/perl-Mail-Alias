@@ -47,7 +47,7 @@ tak¿e korzystanie z kilku innych formatów oraz konwertowanie.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 #%%{__make} test
 
