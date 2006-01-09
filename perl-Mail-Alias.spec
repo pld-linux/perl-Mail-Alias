@@ -57,6 +57,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Change* README
-%{perl_vendorlib}/%{pdir}/%{pnam}.pm
+%{perl_vendorlib}/Mail/Alias.pm
 %attr(755,root,root) %{_examplesdir}/%{name}-%{version}
 %{_mandir}/man3/*
