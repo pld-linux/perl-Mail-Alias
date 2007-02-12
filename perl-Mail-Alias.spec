@@ -6,7 +6,7 @@
 %define		pdir	Mail
 %define		pnam	Alias
 Summary:	Mail::Alias - manipulates mail alias files of various formats
-Summary(pl):	Mail::Alias - manipulacja plikami z aliasami pocztowymi w ró¿nych formatach
+Summary(pl.UTF-8):   Mail::Alias - manipulacja plikami z aliasami pocztowymi w rÃ³Å¼nych formatach
 Name:		perl-Mail-Alias
 Version:	1.12
 Release:	4
@@ -26,11 +26,11 @@ files.  The primary use of Mail::Alias is for manipulating alias files
 in the SENDMAIL alias file format.  Additionally, it's possible to read
 some other formats and to convert between various alias file formats.
 
-%description -l pl
-Ten modu³ pozwala na bezpo¶redni± manipulacjê danymi o aliasach e-mail,
-zawartymi plikach o ró¿nych formatach.  Podstawowym zastosowaniem modu³u
-jest manipulacja plikami w formacie Sendmaila.  Dodatkowo, mo¿liwe jest
-tak¿e korzystanie z kilku innych formatów oraz konwertowanie.
+%description -l pl.UTF-8
+Ten moduÅ‚ pozwala na bezpoÅ›redniÄ… manipulacjÄ™ danymi o aliasach e-mail,
+zawartymi plikach o rÃ³Å¼nych formatach.  Podstawowym zastosowaniem moduÅ‚u
+jest manipulacja plikami w formacie Sendmaila.  Dodatkowo, moÅ¼liwe jest
+takÅ¼e korzystanie z kilku innych formatÃ³w oraz konwertowanie.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
