@@ -6,7 +6,7 @@
 %define		pdir	Mail
 %define		pnam	Alias
 Summary:	Mail::Alias - manipulates mail alias files of various formats
-Summary(pl.UTF-8):   Mail::Alias - manipulacja plikami z aliasami pocztowymi w różnych formatach
+Summary(pl.UTF-8):	Mail::Alias - manipulacja plikami z aliasami pocztowymi w różnych formatach
 Name:		perl-Mail-Alias
 Version:	1.12
 Release:	4
