@@ -7,13 +7,13 @@
 Summary:	Mail::Alias - manipulates mail alias files of various formats
 Summary(pl.UTF-8):	Mail::Alias - manipulacja plikami z aliasami pocztowymi w różnych formatach
 Name:		perl-Mail-Alias
-Version:	1.12
-Release:	6
+Version:	1.15
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	01d42c11f3c4372088597f9c5c3d6af7
+Source0:	https://www.cpan.org/authors/id/J/JI/JIK/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	c185245b17ebcdce874f7cd2bd3f440c
 URL:		http://search.cpan.org/dist/Mail-Alias/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
